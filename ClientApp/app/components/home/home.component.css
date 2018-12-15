@@ -3,7 +3,7 @@
     position: absolute;
     bottom: 0;
     width: 200px;
-    background: #CF1020;
+    background: #FFD700;
 }
 
 .water {
@@ -42,6 +42,50 @@
 }
 
 /* Drink mode: Silly */
+
+.lava {
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    background: #CF1020; 
+}
+
+.ink {
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    background: #111111;    
+}
+
+.oil {
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    background: #F0E68C; 
+}
+
+.seawater {
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    background: #00FFFF; 
+}
+
+.slime {
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    background: #00FF00; 
+}
+
+.gasoline {
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    background: #FF7F50; 
+}
+
+/* Other */
 
 .beer-container {
     height: 200px;
