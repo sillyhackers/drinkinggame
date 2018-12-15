@@ -55,4 +55,75 @@ export class HomeComponent implements OnInit {
         if (!email) email = "___";
         return 'http://www.gravatar.com/avatar/' + md5(email) + '?s=210&d=mm';
     }
+    getDrinkClassById(id: any): string {
+        let choice: string = 'beer'
+        switch(id) { 
+            case 1: { 
+                choice = 'beer';
+                break; 
+            } 
+            case 2: { 
+                choice = 'water';
+               break; 
+            } 
+            case 3: { 
+                choice = 'juice';
+                break; 
+             } 
+             case 4: { 
+                choice = 'milk';
+                break; 
+             } 
+             case 5: { 
+                choice = 'absinthe';
+                break; 
+             } 
+             case 6: { 
+                choice = 'cendol';
+                break; 
+             } 
+            default: { 
+                choice = 'beer';
+               break; 
+            } 
+         } 
+
+         return choice;
+    }
+
+    getDrinkImageById(id: any): string {
+        let choice: string = '/images/beer.png'
+        switch(id) { 
+            case 1: { 
+                choice = '/images/beer.png';
+                break; 
+            } 
+            case 2: { 
+                choice = '/images/water.png';
+               break; 
+            } 
+            case 3: { 
+                choice = '/images/juice.png';
+                break; 
+             } 
+             case 4: { 
+                choice = '/images/milk.png';
+                break; 
+             } 
+             case 5: { 
+                choice = '/images/absinthe.png';
+                break; 
+             } 
+             case 6: { 
+                choice = '/images/cendol.png';
+                break; 
+             } 
+            default: { 
+                choice = '/images/beer.png';
+               break; 
+            } 
+         } 
+
+         return choice;
+    }
 }

@@ -38,7 +38,8 @@ namespace AngularSignalR.Hubs
                 throw new Exception("You cannot join a group which has started or finished");
             }
 
-            group.Glasses.Add(new Glass { ConnectionId = Context.ConnectionId, Email = email });
+            Random rnd = new Random();
+            group.Glasses.Add(new Glass { ConnectionId = Context.ConnectionId, Email = email, Drink = rnd.Next(1, 7) });
 
             BroadcastGroup(group);
         }
@@ -99,6 +100,7 @@ namespace AngularSignalR.Hubs
         public bool HasLeft { get; set; }
         public string ConnectionId { get; set; }
         public string Email { get; set; }
+        public int Drink { get; set; }
         public int Value { get; set; } = 100;
     }
 }
