@@ -1,9 +1,48 @@
+/* Drink mode: Normal */
 .beer {
     position: absolute;
     bottom: 0;
     width: 200px;
-    background: #E69100;
+    background: #CF1020;
 }
+
+.water {
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    background: #AFEEEE;
+}
+
+.juice {
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    background: #FFA500;
+}
+
+.milk {
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    background: #FFF5EE;
+}
+
+.absinthe {
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    background: #00FA9A;
+}
+
+.cendol {
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    background: #6B8E23;
+}
+
+/* Drink mode: Silly */
+
 .beer-container {
     height: 200px;
     width: 200px;
@@ -32,4 +71,10 @@ img.gravatar {
 }
 .glass{
     display: inline-block;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
 }
