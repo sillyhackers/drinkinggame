@@ -1,91 +1,10 @@
-/* Drink mode: Normal */
-.beer {
-    position: absolute;
-    bottom: 0;
-    width: 200px;
-    background: #FFD700;
+/* Page Styling */
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
 }
-
-.water {
-    position: absolute;
-    bottom: 0;
-    width: 200px;
-    background: #AFEEEE;
-}
-
-.juice {
-    position: absolute;
-    bottom: 0;
-    width: 200px;
-    background: #FFA500;
-}
-
-.milk {
-    position: absolute;
-    bottom: 0;
-    width: 200px;
-    background: #FFF5EE;
-}
-
-.absinthe {
-    position: absolute;
-    bottom: 0;
-    width: 200px;
-    background: #00FA9A;
-}
-
-.cendol {
-    position: absolute;
-    bottom: 0;
-    width: 200px;
-    background: #6B8E23;
-}
-
-/* Drink mode: Silly */
-
-.lava {
-    position: absolute;
-    bottom: 0;
-    width: 200px;
-    background: #CF1020; 
-}
-
-.ink {
-    position: absolute;
-    bottom: 0;
-    width: 200px;
-    background: #111111;    
-}
-
-.oil {
-    position: absolute;
-    bottom: 0;
-    width: 200px;
-    background: #F0E68C; 
-}
-
-.seawater {
-    position: absolute;
-    bottom: 0;
-    width: 200px;
-    background: #00FFFF; 
-}
-
-.slime {
-    position: absolute;
-    bottom: 0;
-    width: 200px;
-    background: #00FF00; 
-}
-
-.gasoline {
-    position: absolute;
-    bottom: 0;
-    width: 200px;
-    background: #FF7F50; 
-}
-
-/* Other */
 
 .beer-container {
     height: 200px;
@@ -111,14 +30,102 @@
 img.gravatar {
     border-radius: 50%;
     top: 40px;
-    left: 74px;
+    margin-left: 15px;
 }
 .glass{
     display: inline-block;
+    padding: 20px;
 }
 
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
+h1 {
+    text-transform: uppercase;
+    font-family: "Roboto";
+    font-size: 24px;
+}
+
+/* Drink mode: Normal */
+.beer {
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    background: linear-gradient(gold, #E69100);
+}
+
+.water {
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    background: linear-gradient(#E0FFFF, #AFEEEE);
+}
+
+.juice {
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    background: liner-gradient (orange, #ff8c00);
+}
+
+.milk {
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    background: linear-gradient(#FFF8DC, #FFF5EE);
+}
+
+.absinthe {
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    background: linear-gradient(#00FA9A, #98FB98);
+}
+
+.cendol {
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    background: linear-gradient(#808000, #6B8E23);
+}
+
+/* Drink mode: Silly */
+
+.lava {
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    background: linear-gradient(red, #CF1020); 
+}
+
+.ink {
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    background: linear-gradient(#111111, #696969);    
+}
+
+.oil {
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    background: linear-gradient(#F0E68C, #FFFF00); 
+}
+
+.seawater {
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    background: linear-gradient(#00FFFF, #00CED1); 
+}
+
+.slime {
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    background: linear-gradient(#ADFF2F, #00FF00); 
+}
+
+.gasoline {
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    background: linear-gradient(#FF7F50,#FF8C00); 
 }
