@@ -6,5 +6,5 @@ This is largely based on the [drinking game](https://github.com/thiagospassos/An
 You can find the presentation/pitch [here](https://prezi.com/p/kzv2m_agcivy/scull-the-hooch)
 
 ## Screenshot
-![Demo Screen](./wwwwroot/images/demo_screen.png "Demo Screen")
+![Demo Screen](../wwwwroot/images/demo_screen.png "Demo Screen")
 
